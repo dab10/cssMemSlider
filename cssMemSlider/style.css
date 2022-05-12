@@ -1,0 +1,26 @@
+body {
+	background-color: grey;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    gap: 1rem;
+    margin: auto;
+	width: 80%;
+    height: 100vh;
+}
+
+.slider {
+    margin-top: 1rem;
+    grid-column: 1 / 4;
+	background-color: #ddd;
+	box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+
+.hidden {
+    display: block;
+	visibility: hidden;
+}
