@@ -4,10 +4,11 @@ body {
 
 .container {
     display: grid;
+    justify-content: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1% 79% 20%;
     margin: 0 auto;
-    max-width: 50rem;
+    max-width: 40rem;
     min-height: 100vh;
 }
 
@@ -22,7 +23,6 @@ body {
     margin-top: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    
 }
 
 .slides {
@@ -133,7 +133,7 @@ body {
 
 @media (max-width: 412px) {
     .container {
-        grid-template-rows: 1% 30% 20% 20%;
+        grid-template-rows: 1% 40% 20% 20%;
         max-width: 18rem;
     }
 
